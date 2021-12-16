@@ -1,0 +1,1 @@
+# ci-corretto8-maven-build
