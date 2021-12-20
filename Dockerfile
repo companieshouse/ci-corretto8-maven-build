@@ -16,9 +16,7 @@ RUN yum -y update && \
     maven \
     slf4j \
     unzip \
-    zip
-
-RUN yum -y install \
+    zip \
     ${CORRETTO_URL} && \
     yum clean all
 
